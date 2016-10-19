@@ -15,17 +15,18 @@ body {
 header {
   background-color: #79756f;
   border: 3px solid #595652;
+  text-align: center;
 }
 
 h1 {
   color: white;
-  font-family: 'Bevan';
-  text-align: center;
+  font-family: "Bevan", serif;
 }
 
 ul {
   color: #fff;
   list-style-type: none;
+  padding: 0;
 }
 
 li {
@@ -39,6 +40,8 @@ a {
   padding: 0.5em 0.75em;
   margin: 0 0 0.3em 0;
   border-radius: 3px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
 }
 
 a:hover {
