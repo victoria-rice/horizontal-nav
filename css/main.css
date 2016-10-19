@@ -1,0 +1,23 @@
+html {
+  background-color: #dbd6cf;
+}
+header {
+  background-color: #797570;
+  border: 3px solid #585551;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bevan';
+  text-align: center;
+}
+
+ol {
+  color: white;
+}
+
+li {
+  display: inline;
+  background-color: #713837;
+  padding: 0.5em 0.75em;
+}
