@@ -1,6 +1,14 @@
 html {
   background-color: #dbd6cf;
+  line-height: 1.5;
+  box-sizing: padding-box;
 }
+
+body {
+  font-size: auto;
+  margin: 0;
+}
+
 header {
   background-color: #79756f;
   border: 3px solid #595652;
@@ -12,12 +20,25 @@ h1 {
   text-align: center;
 }
 
-ol {
-  color: white;
+ul {
+  color: #fff;
+  list-style-type: none;
 }
 
 li {
   display: inline;
+}
+
+a {
+  color: #fff;
+  display: inline-block;
   background-color: #713837;
   padding: 0.5em 0.75em;
+  margin: 0 0 0.3em 0;
+  border-radius: 3px;
+}
+
+a:hover {
+  background-color: #f33;
+
 }
